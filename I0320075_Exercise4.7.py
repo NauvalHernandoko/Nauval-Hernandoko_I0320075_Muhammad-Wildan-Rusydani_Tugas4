@@ -1,11 +1,11 @@
-#string
+# strings
 
-needle = "lo"
+needle = "Ha"
 
 haystack = "Hello world"
 
-#check
-if needle in haystack:
+# check
+if needle in haystack :
     print(needle, "is present in the string", haystack)
 else:
     print("Not found")
